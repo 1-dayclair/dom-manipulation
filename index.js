@@ -46,3 +46,9 @@ action.addEventListener("click", ()=> {
 first.appendChild(document.createElement("p").textContent = "as in");
     
 }); 
+
+const quickWriting = document.getElementById("diamond-mine");
+quickWriting.addEventListener("submit", (e) => {
+    e.preventDefault();
+    alert(document.querySelector("#reward"));
+})
