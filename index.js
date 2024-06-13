@@ -8,6 +8,8 @@ const action = document.querySelector("#action");
 const toggle = document.querySelector(".toggle");  
 
 function changeImage() {
+    action.removeEventListener("click", changeImage)
+
     const image = document.createElement("img");
     image.src = "img/IMG_5676_A.jpg"
     first.appendChild(image);
@@ -21,7 +23,7 @@ function changeImage() {
     image1.style.width = "300px";
     first.appendChild(document.createElement("h5")).textContent = "as in Anchor";
 }
-action.addEventListener("click", changeImage);
+action.addEventListener("click", changeImage); 
 
 const quickWriting = document.getElementById("diamond-mine");
 
