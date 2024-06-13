@@ -4,7 +4,8 @@ first.appendChild(document.createElement("h1")).textContent = "SLIP!"
 first.style.color = "green";
 first.style.textAlign = "center";
 
-const action = document.querySelector("#action"); 
+const action = document.querySelector("#action");
+const toggle = document.querySelector(".toggle");  
 
 function changeImage() {
     const image = document.createElement("img");
@@ -22,9 +23,28 @@ function changeImage() {
 }
 action.addEventListener("click", changeImage);
 
+function off() {
+    const disappear = changeImage; 
+if(disappear.style.display === "block")
+    disappear.style.display === "none";
+}
+
 const quickWriting = document.getElementById("diamond-mine");
 
 quickWriting.addEventListener("submit", (e) => {
     e.preventDefault();
-    alert(document.querySelector("#reward"));
+    alert("DEFENSE!! *stomp stomp* DEFENSE!! *stomp stomp* DEFENSE!! *boom *" +  
+"*boom* there's always some kind of" + 
+"problem in this apartment. He wonders," + 
+" it must be for the best!...?" + 
+		"That's his bestest friend." + 
+" Should it be breathing, and stretching, sexy like a cat?" +
+" This is good for the the fortification of his Strong Stomach! as in" + 
+  " Foreplay for psychological warfare of turning him off" +
+	" He looks out for thee," +
+" though, must it be for bitter, baby" +
+" put me in your drink" +
+"!!DEFENSE!! *stomp stomp* DEFENSE!! *boom *" + 
+"*boom* !!DEFENSE!! *stomp stomp* DEFENSE!! *boom *" + 
+"*boom*");
 })
