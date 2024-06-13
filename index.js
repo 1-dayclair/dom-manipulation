@@ -23,12 +23,6 @@ function changeImage() {
 }
 action.addEventListener("click", changeImage);
 
-function off() {
-    const disappear = changeImage; 
-if(disappear.style.display === "block")
-    disappear.style.display === "none";
-}
-
 const quickWriting = document.getElementById("diamond-mine");
 
 quickWriting.addEventListener("submit", (e) => {
@@ -48,3 +42,19 @@ quickWriting.addEventListener("submit", (e) => {
 "*boom* !!DEFENSE!! *stomp stomp* DEFENSE!! *boom *" + 
 "*boom*");
 })
+
+const inner = document.getElementById("reward");
+
+inner.style.textAlign = "right"
+inner.innerHTML =  "This is a <strong>future</strong> <i>poem</i> <u>script</u> of shared individual <u>research</u> into the <s>innocence and</s> carelessness of what We describe as <u>Origin</u>."  
+
+const pleasant = document.getElementById("#pleasant");
+try {
+    if(pleasant === true) throw "Okay, let's try it!";
+} catch (error) {
+    console.error("Hold on, wait a second...")    
+}
+
+pleasant.appendChild(diamond-mine);
+
+console.log(pleasant.firstChild.nodeName);
