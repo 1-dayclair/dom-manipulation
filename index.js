@@ -48,13 +48,13 @@ const inner = document.getElementById("reward");
 inner.style.textAlign = "right"
 inner.innerHTML =  "This is a <strong>future</strong> <i>poem</i> <u>script</u> of shared individual <u>research</u> into the <s>innocence and</s> carelessness of what We describe as <u>Origin</u>."  
 
-const pleasant = document.getElementById("#pleasant");
+const pleasant = document.getElementById("pleasant");
 try {
     if(pleasant === true) throw "Okay, let's try it!";
 } catch (error) {
     console.error("Hold on, wait a second...")    
 }
 
-pleasant.appendChild(diamond-mine);
+pleasant.appendChild(quickWriting);
 
 console.log(pleasant.firstChild.nodeName);
