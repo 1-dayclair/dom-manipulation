@@ -25,6 +25,18 @@ function changeImage() {
 }
 action.addEventListener("click", changeImage); 
 
+
+function secondChangeImage () {
+
+
+    const imageNow = document.createElement("img");
+    imageNow.src = "img/IMG_5677_B.jpg"
+    imageNow.style.height = "267px";
+    imageNow.style.width = "300px";
+    first.appendChild(document.createElement("h5")).textContent = "as in Billionaire"
+}
+
+
 const quickWriting = document.getElementById("diamond-mine");
 
 quickWriting.addEventListener("submit", (e) => {
@@ -60,3 +72,17 @@ try {
 pleasant.appendChild(quickWriting);
 
 console.log(pleasant.firstChild.nodeName);
+
+const justification = document.querySelector(".turn");
+const targets = ["Middlemen", "Landlords", "Gatekeepers" + " " + "... are all reportedly black mold concerning Capitalism"]; 
+
+const dust = new DocumentFragment();
+
+for (const target of targets) {
+    const prominent = document.createElement("li");
+    prominent.textContent = target;  
+    prominent.style.textAlign = "left"
+    dust.append(prominent);
+}
+justification.append(dust);
+
