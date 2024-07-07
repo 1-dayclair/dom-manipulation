@@ -1,5 +1,4 @@
-The following program is a witty, virtual, language, poem game. 
+The following program is a poetry game. This program is a skill based assesment concerning the DOM. 
 _Day
-*Commented out code is original image inputs
-Assisted by Manara with image iteration. 
-_Day
+
+
